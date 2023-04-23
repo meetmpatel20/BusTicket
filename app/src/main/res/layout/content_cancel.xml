@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cancel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="CANCEL TICKET"
+        android:textColor="#034E6E"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/ticid_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="TICKET ID"
+        android:inputType="textPersonName"
+        android:textColor="#034E6E"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/cncl_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#034E6E"
+        android:text="CANCEL"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</LinearLayout>
